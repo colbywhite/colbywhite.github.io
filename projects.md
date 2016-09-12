@@ -1,5 +1,5 @@
 ---
-title: Projects | Colby M. White
+title: Projects
 ---
 
 # Projects

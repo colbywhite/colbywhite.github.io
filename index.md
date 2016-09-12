@@ -1,5 +1,4 @@
 ---
-title: Colby M. White
 ---
 
 # Overview
