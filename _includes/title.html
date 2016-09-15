@@ -1,12 +1,20 @@
 <header>
     <div class="container">
+        {% if page.about %}
         <h1>Colby M. White</h1>
         <h2>Software Engineer</h2>
+        {% else %}
+        <h1>Sustainable Development</h1>
+        <h2>A blog by Colby M. White, software engineer</h2>
+        {% endif %}
+
         <section id="downloads">
-            <a href="/" class="btn">Overview</a>
-            <a href="/projects" class="btn">Projects</a>
-            <a href="/blog" class="btn">Blog</a>
-            <a href="/colby.white.resume.pdf" class="btn" target="_blank">R&#233;sum&#233;</a>
+            <a href="/" class="btn">Blog</a>
+            <a href="/about" class="btn">About Author</a>
+            {% if page.about %}
+            <a href="/about/projects" class="btn">Projects</a>
+            <a href="/about/colby.white.resume.pdf" class="btn" target="_blank">R&#233;sum&#233;</a>
+            {% endif %}
         </section>
     </div>
 </header>

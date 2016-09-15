@@ -1,5 +1,6 @@
 ---
 title: Projects
+about: true
 ---
 
 # Projects

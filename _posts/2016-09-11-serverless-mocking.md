@@ -1,6 +1,5 @@
 ---
 title: Serverless Mocking
-layout: post
 ---
 # Be prepared to write Mocks in a serverless architecture
 
