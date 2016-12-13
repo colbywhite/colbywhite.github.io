@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Sustainable Development"
+title                    : "Sustainable Dev"
 title_separator          : "|"
 name                     : "Colby M. White"
 description              : "A blog by Colby M. White, software engineer"
@@ -15,7 +15,7 @@ url                      : "http://sustainabledev.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "colbywhite/colbywhite.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
