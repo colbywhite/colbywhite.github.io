@@ -17,9 +17,7 @@
   {% endif %}
 
   <div class="author__content">
-    <a class="author__name" href="/about">
-      <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
-    </a>
+    <h3 class="author__name" itemprop="name">{{ author.name }}</h3>
     {% if author.bio %}
       <p class="author__bio" itemprop="description">
         {{ author.bio }}
@@ -49,6 +47,14 @@
           <a href="mailto:{{ author.email }}">
             <meta itemprop="email" content="{{ author.email }}" />
             <i class="fa fa-fw fa-envelope-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}
+          </a>
+        </li>
+      {% endif %}
+
+      {% if author.about %}
+        <li>
+          <a href="{{ author.about }}">
+            <i class="fa fa-fw fa-info-circle" aria-hidden="true"></i> About
           </a>
         </li>
       {% endif %}

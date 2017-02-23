@@ -79,6 +79,7 @@ analytics:
 # Site Author
 author:
   name             : "Colby M. White"
+  about            : "/about"
   avatar           : "/assets/images/profilepic.jpg"
   bio              : "Software Engineer"
   location         : "U.S.A."
