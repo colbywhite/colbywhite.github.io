@@ -1,9 +1,3 @@
----
-layout: archive
-title: About
-author_profile: true
----
-
 Experienced polyglot engineer with a focus in JavaScript and Ruby. Comfortable in multiple layers of an application’s stack with the most experience coming in back-end development.
 
 # Projects
