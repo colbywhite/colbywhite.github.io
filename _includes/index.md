@@ -8,11 +8,11 @@ A web project highlighting which games in the NBA’s busy 1,230-game schedule (
 - Link: [why82.com](http://why82.com)
 - Technologies: Python, JavaScript, ReactJS, AWS Lambda
 
-## chef_utensils
-A Ruby gem containing boilerplate code to add common Rake tasks to a Chef cookbook project’s Rakefile. The name is attempting to deliver yet another cooking pun to the Chef ecosystem - perhaps a poor attempt.
+## aws-cf-monitor
+A wrapper around the AWS CloudFormation Node.js API that monitors the progress of the CloudFormation commands while providing smart logging. The intent is to remove a lot of boiler-plate code to poll the progress of a stack.
 
-- Link: [rubygems/chef_utensils](https://rubygems.org/gems/chef_utensils)
-- Technologies: Ruby, Chef, Rake
+- Link: [npmjs/aws-cf-monitor](https://www.npmjs.com/package/aws-cf-monitor)
+- Technologies: Node.js, AWS, CloudFormation
 
 ## Harris County Bookings Data Gathering
 An Open Austin serverless project that accumulates the booking information published in Harris County’s daily JIMS 1058 reports into a search-friendly format. The intent is to aide non-profit organizations looking to do data research across time spans greater than a day.
@@ -25,3 +25,9 @@ A simple tool to ease the management of multiple Vagrant machines in different d
 
 - Link: [colbywhite/timbrel](https://github.com/colbywhite/timbrel)
 - Technologies: Ruby, Vagrant
+
+## chef_utensils
+A Ruby gem containing boilerplate code to add common Rake tasks to a Chef cookbook project’s Rakefile. The name is attempting to deliver yet another cooking pun to the Chef ecosystem - perhaps a poor attempt.
+
+- Link: [rubygems/chef_utensils](https://rubygems.org/gems/chef_utensils)
+- Technologies: Ruby, Chef, Rake
